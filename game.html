@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link href="game.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="icon" href="./images/icon.webp">
+    <title>RsPlS game</title>
+  </head>
+
+  <body>
+    <div>
+      <h1>The Rock Paper Scissors Lizard Spock Madness</h1>
+      <h2>Win five rounds to be the survival</h2>
+      <h2>
+        Survival <span id="p-score">0</span> - <span id="c-score">0</span> Monster
+      </h2>
+      <div class="display-moves">
+        <div class="move">
+          <img id="p-move" src="./images/rock.jpg">
+        </div>
+        <div class="separator">VS</div>
+        <div class="move">
+          <img id="c-move" src="./images/rock.jpg">
+        </div>
+      </div>
+      <h2>Click on the image below to select your move:<h2>
+      <div class="action">
+        <input class="options" type="image" src="./images/rock.jpg" value="Rock" />
+        <input class="options" type="image" src="./images/paper.jpg" value="Paper" />
+        <input class="options" type="image" src="./images/scissors.jpg" value="Scissors" />
+        <input class="options" type="image" src="./images/lizard.jpg" value="Lizard" />
+        <input class="options" type="image" src="./images/spock.jpg" value="Spock" />
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
